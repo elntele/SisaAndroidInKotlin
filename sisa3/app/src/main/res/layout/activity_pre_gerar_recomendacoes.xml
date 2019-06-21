@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+
+
+    <ProgressBar
+        android:id="@+id/sisa_progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="20dp"
+        android:indeterminateTint="#990000"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:id="@+id/mensagem_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="12dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:paddingRight="12dp"
+        android:paddingLeft="12dp"
+        android:text="Por favor aguarde, suas sugestões estão sendo geradas e em breve serão apresentadas!"/>
+
+
+</LinearLayout>

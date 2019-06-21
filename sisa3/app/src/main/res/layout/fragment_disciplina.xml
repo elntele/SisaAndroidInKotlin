@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:layout_margin="16dp"
+                android:id="@+id/disciplina_fragment">
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:id="@+id/codigo_disciplina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/codigo_disciplina_text_view"/>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:id="@+id/nome_disciplina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_disciplina_text_view"/>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:id="@+id/area_disciplina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/area_disciplina_text_view"/>
+
+    <CheckBox
+        android:id="@+id/is_cursada_disciplina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/is_cursada_disciplina_check_box"/>
+
+
+
+    <Button
+        android:id="@+id/salvar_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#009933"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="bottom"
+        android:text="Finalizar cadastro"/>
+</LinearLayout>

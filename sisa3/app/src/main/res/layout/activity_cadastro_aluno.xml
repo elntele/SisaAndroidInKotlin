@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             android:paddingBottom="16dp"
+             android:paddingLeft="16dp"
+             android:paddingRight="16dp"
+             android:paddingTop="16dp">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/nome_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Nome Completo"/>
+            <EditText
+                android:id="@+id/cpf_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="CPF"
+                android:ems="10"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/senha_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Senha"
+                android:ems="10"
+                android:inputType="textPassword"/>
+
+            <EditText
+                android:id="@+id/email_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email_edit_text"
+                android:ems="10"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/ano_periodo_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ano e Período de Ingresso"
+                android:ems="10"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:id="@+id/periodo_tracando_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Qtd. de Períodos trancados"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/qts_h_semanal_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Qtd de Horas para estudo"
+                android:inputType="number"/>
+
+            <TextView
+                style="?android:listSeparatorTextViewStyle"
+                android:id="@+id/area_preferencia_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="Selecione a sua área de preferência"
+                android:textAlignment="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <CheckBox
+                    android:id="@+id/box_ensiso_check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ensiso"/>
+
+                <CheckBox
+                    android:id="@+id/box_arq_check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ARQ"/>
+
+                <CheckBox
+                    android:id="@+id/box_fc_check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FC"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/tela_foto_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#990000"
+                android:textColor="#FFFFFF"
+                android:text="Tirar Foto"/>
+
+            <Button
+                android:id="@+id/proximo_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#009933"
+                android:textColor="#FFFFFF"
+                android:text="Próximo"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
